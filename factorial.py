@@ -1,6 +1,4 @@
 # factorial
-user=int(input("Enter Any Number"))
-n=1
-for i in range (1,user+1):
-   n=n*i
-   print(n)
+import math
+a=int(input("Enter the number"))
+print(math.factorial(a))
